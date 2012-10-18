@@ -541,8 +541,6 @@
     <string name="android_beam_explained">"Когда включена эта функция, данные приложений можно передавать на другие устройства с поддержкой связи малого радиуса действия. Например, отправлять страницы браузера, видео YouTube, контакты и другие сведения.
 
 Просто разместите устройства поблизости (например, совместите их задние панели) и коснитесь экрана. Передаваемые данные зависят от приложения."</string>
-    <string name="wifi_quick_toggle_title">W-FI</string>
-    <string name="wifi_quick_toggle_summary">Включить Wi-Fi</string>
     <string name="wifi_settings">Wi-Fi</string>
     <string name="wifi_settings_category">Настройки Wi-Fi</string>
     <string name="wifi_settings_title">Wi-Fi</string>
@@ -1744,13 +1742,11 @@
     <string name="nfc_on_off">NFC</string>
     <string name="nfc_on_off_summary">NFC доступен. Вы можете использовать функцию оплаты.</string>
     <string name="nfc_use_rw_p2p">Чтение, Запись/Использование P2P</string>
-    <string name="nfc_use_rw_p2p_summary">Read or exchange tags and transmit data between device.</string>
+    <string name="nfc_use_rw_p2p_summary">Считывайте или обменивайтесь метками и передавайте информацию между двумя устройствами.</string>
     <string name="nfc_android_beam_on_off">Android Beam/P2P transmission</string>
-    <string name="nfc_settings_title">Настройки NFC</string>
-    <string name="nfc_use_rw_p2p">Чтение, Запись/Использование P2P</string>
-    <string name="nfc_use_rw_p2p_summary">Чтение или обмен метками через NFC</string>
     <string name="nfc_disable_dialog_message">Если вы не используете NFC, вы не можете использовать функцию оплаты</string>
-    <string name="icc_pin_input_error_title">Пароль(PIN) Ошибка ввода</string>
+    <string name="nfc_rw_p2p_disable_message">Смартфон работает как кредитная или транспортная карта.</string>
+	<string name="icc_pin_input_error_title">Пароль(PIN) Ошибка ввода</string>
     <string name="icc_pin_input_error_format">Неправильный PIN. Осталось:%d Введите PIN еще раз.</string>
     <string name="icc_pin_input_error_pukinput">Ошибка ввода PIN. Неправильный пароль(PIN) введен 3 раза. Введите код разблокировки(PUK). Рекомендуется посетить центр обслуживания если вы не знаете PUK.</string>
     <string name="icc_pin_input_puktitle">Введите код разблокировки</string>
@@ -1815,22 +1811,20 @@
     <string name="icc_menu_enter_set">Установить Idle w/o USIM.</string>
     <string name="icc_menu_enter_unset">Снять Idle w/o USIM.</string>
     <string name="time_valid_check_msg">Установить время?</string>
-    <string name="alwayson_settings_title">Настройки сети передачи данных</string>
-    <string name="alwayson_settings_summary">Выберите для подключения или отключения сети передачи данных.</string>
-    <string name="alwayson_alert_dial_title">Настройки сети передачи данных</string>
-    <string name="alwayson_enable_data_string">Будет взыматься плата за передачу данных.</string>
-    <string name="alwayson_disable_data_string">После отключения от сети передачи данных, доступ к данным возможен только в зоне действия сети Wi-Fi.</string>
-    <string name="alwayson_popup_data_string">Запрос на подключение к сети передачи данных будет каждый раз при включении телефона.</string>
-    <string name="alwayson_alert_dialog_ok_button">Ок</string>
-    <string name="alwayson_alert_dialog_yes_button">Да</string>
-    <string name="alwayson_alert_dialog_cancel_button">Нет</string>
-    <string name="wifi_p2p_disconnect">Отключить?</string>
-    <string name="wifi_p2p_disconnect_msg">Вы действительно хотите отключить?</string>
-    <string name="wifi_p2p_this_device">НАЗВАНИЕ МОЕГО УСТРОЙСТВА</string>
+    <string name="ask_the_data_connection_ap_power_on">Запрос на подключение к передаче данных при включении телефона</string>
+	<string name="alwayson_enable_data_string">"Будет взыматься плата за передачу данных.
+
+Разрешить доступ к сетям 3G/4G?"</string>	
+	<string name="alwayson_disable_data_string">"После отключения от передачи данных в сетях 3G/4G, доступ к данным возможен только в зоне действия сети Wi-Fi.
+
+Отключить 3G/4G сети?"</string>	
+	<string name="alwayson_popup_data_string">Запрос на подключение к сети передачи данных будет каждый раз при включении телефона.</string>    
+	<string name="wifi_p2p_off_summary">Вы действительно хотите отключить?</string>
+    <string name="wifi_p2p_group_name">Название группы</string>
+	<string name="wifi_p2p_group_pass">Пароль группы</string>
+	<string name="wifi_p2p_this_device">НАЗВАНИЕ МОЕГО УСТРОЙСТВА</string>
     <string name="starting_usb_tethering">Включение ...</string>
     <string name="ending_usb_tethering">Выключение ...</string>
-    <string name="skt_t_roaming">T roaming</string>
-	<string name="network_indicator_set_title">Отображать состояние сети</string>
     <string name="wifi_p2p_couldnot_connect_between_both_devices_Group_Owner">Владелец группы не может подключиться к другому владельцу группы</string>
     <string name="usb_connection_summary">Выбранный режим подключения будет использован при последующих USB подключениях</string>
     <string name="usb_sdcard_title">Внешняя память (Только SD-карта)</string>
@@ -1877,7 +1871,18 @@ For further information, touch Tips button underneath ‘USB connection settings
     <string name="dialog_ptp_tips">"To use Camera (PTP), you may have to install additional programs suitable for your PC OS.
 For further information, touch Tips button underneath ‘USB connection settings’."</string>
     <string name="dialog_do_not_show_again">Не показывать снова</string>
-    <item type="string" name="APKTOOL_DUMMY_063d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_063e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_063f">false</item>
+    <string name="wifi_hotspot_pw_title">Настройки Wi-Fi хотспот</string>
+    <string name="wifi_hotspot_save">Сохранить</string>
+    <string name="wifi_hotspot_cancel">Отмена</string>
+    <string name="wifi_hotspot_pw_msg">"Другие устройства, которые подключены к Интернету через этот телефон, могут вызвать оплату за передачу данных.
+"</string>
+    <string name="wifi_hotspot_new_pw">Новый пароль</string>
+    <string name="wifi_hotspot_pw_guide">Ваш пароль должен быть как минимум 8 символов.</string>
+    <string name="wifi_hotspot_show_pw">Отображать пароль.</string>
+    <string name="wifi_hotspot_toast">Другие устройства, которые подключены к Интернету через этот телефон, могут вызвать оплату за передачу данных и расход батареи.</string>
+    <string name="wifi_direct_password_valid_check_error_msg">Можно использовать только буквы, цифры и общие символы.</string>
+    <string name="wifi_tethering_ssid_length_check_error_msg">Не превышайте максимальную длину SSID хотспота в 32 символа.</string>
+    <string name="wifi_tethering_password_length_check_error_msg">Не превышайте длину пароля в 64 символа.</string>
+    <string name="wifi_tethering_password_valid_check_error_msg">Можно использовать только буквы, цифры и общие символы.</string>
+    <item type="string" name="APKTOOL_DUMMY_0693">false</item>
 </resources>
