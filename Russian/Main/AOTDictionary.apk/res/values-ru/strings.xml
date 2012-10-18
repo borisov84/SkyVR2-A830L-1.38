@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">мини Словарь</string>
+    <string name="title_text">мини Словарь</string>
+    <string name="no_db">База данных электронного словаря не найдена.</string>
+</resources>
