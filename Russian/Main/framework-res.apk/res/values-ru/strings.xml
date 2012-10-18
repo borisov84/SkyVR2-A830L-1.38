@@ -1313,8 +1313,8 @@
     <string name="lgu_plmn_not_allowed">Регистрация не удалась.</string>
     <string name="lgu_network_failure">Регистрация в сети затягивается.</string>
     <string name="lgu_service_center">Пожалуйста, свяжитесь с сервисным центром(+82-2-3416-7010).</string>
+	<string name="lgu_no_network">Ошибка доступа к сети</string>
     <string name="button_ok">Ок</string>
-    <string name="alwayson_popup_dialog_title">Подключение к сети передачи данных</string>
     <string name="cdma_lock_maintenance_required">Ошибка регистрации.</string>
     <string name="cdma_lock_auth_fail">Неавторизованный телефон.</string>
     <string name="limited_service">Только экстренные вызовы</string>
@@ -1380,8 +1380,7 @@ www.skyservice.co.kr homepage, 'Unlock' service can be used through 'Unlock' men
     <string name="alwayson_popup_dialog_content">"Передача данных просит разрешить доступ к беспроводным сетям, что может повлечь дополнительную плату за передачу.
 
 	Разрешить доступ к передаче данных?"</string>
-	<string name="sky_skt_fota_title">Телефон службы обеспечения</string>
-    <string name="alwayson_popup_dialog_content_ok_info">"Доступна передача данных в сетях 3G/4G.
+	<string name="alwayson_popup_dialog_content_ok_info">"Доступна передача данных в сетях 3G/4G.
 За передачу трафика может взыматься плата."</string>
     <string name="alwayson_popup_dialog_content_cancel_info">"Передача данных в сетях 3G/4G заблокирована.
 После изменения в меню &lt;setup> может установлена передача данных в сетях 3G/4G."</string>
