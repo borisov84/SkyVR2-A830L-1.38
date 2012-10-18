@@ -100,9 +100,9 @@
     <string name="pcu_phone_dialer_num_star">*</string>
     <string name="pcu_phone_dialer_cancel">Закрыть</string>
     <string name="pcu_phone_dialer_call">Вызвать</string>
+	<string name="pcu_phone_in_call_touch_vc">Видеовызов</string>
     <string name="pcu_phone_btn_indicator_call_end">Завершить звонок</string>
     <string name="pcu_phone_autoanswer_invalid_number_to_sent">Неверный номер.</string>
-    <string name="pcu_phone_auto_answer_unavailable_during_call">Автоответ недоступен во время звонка</string>
     <string name="pcu_phone_emergency_confirm">"Вызвать %s нажатием кнопки 'OK'. Вызвать сейчас?"</string>
 	<string name="pcu_phone_user_dial">Ввод</string>
     <string name="pcu_phone_police_call">Полиция</string>
