@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mwlan_admin_modify_setting">Изменить настройки</string>
+    <string name="mwlan_general_vpngwip">VpnGw Ip</string>
+    <string name="mwlan_general_connection_name">Название соединения</string>
+    <string name="mwlan_setlist_general_set">Настройки соединения</string>
+    <string name="mwlan_setlist_ike_sa">Настройки IKE SA</string>
+    <string name="mwlan_setlist_child_sa1">Настройки CHILD SA 1</string>
+    <string name="mwlan_setlist_child_sa2">Настройки CHILD SA 2</string>
+    <string name="mwlan_setlist_advance">Расширенные</string>
+    <string name="mwlan_ike_auth">Авторизация</string>
+    <string name="mwlan_ike_id">ID</string>
+    <string name="mwlan_ike_input_key">Key</string>
+    <string name="mwlan_ike_key_exchange">IKE key exchange</string>
+    <string name="mwlan_ike_hash">IKE hash</string>
+    <string name="mwlan_ike_cipher">IKE cipher</string>
+    <string name="mwlan_ike_pfs">Use PFS</string>
+    <string name="mwlan_child_enable">Включить</string>
+    <string name="mwlan_child_vip_set">Настройки Virtual IP</string>
+    <string name="mwlan_child_vip_data">Virtual ip</string>
+    <string name="mwlan_child_subnet_start">Запуск подсети</string>
+    <string name="mwlan_child_subnet_end">Остановить подсеть</string>
+    <string name="mwlan_child_hash">Ipsec hash</string>
+    <string name="mwlan_child_cipher">Ipsec cipher</string>
+    <string name="mwlan_advance_aggressive">Агрессивный режим</string>
+    <string name="mwlan_advance_xauth_id">Xauth ID</string>
+    <string name="mwlan_advance_xauth_pwd">Xauth Passwd</string>
+    <string name="mwlan_advance_ike_lifetime">Ike время жизни(сек)</string>
+    <string name="mwlan_advance_ike_lifebyte">Ike время жизни(байт)</string>
+    <string name="mwlan_advance_ipsec_lifetime">Ipsec время жизни(сек)</string>
+    <string name="mwlan_advance_ipsec_lifebyte">Ipsec lвремя жизни(байт)</string>
+    <string name="mwlan_ike_is_base16">Base16</string>
+    <string name="mwlan_ike_is_manual">Вручную</string>
+    <string name="mwlan_stop_android_daemon">Пожалуйста, отключите VPN</string>
+    <string name="mwlan_permission_title">Служба Wi-Fi U+</string>
+    <string name="mwlan_permission_summary">Включить VPN для службы Wi-Fi U+</string>
+    <string name="mwlan_allow">Включить</string>
+    <string name="mwlan_deny">Отключить</string>
+    <string name="mwlan_error_auth">Служебное подключение WiFi OZ ограничено. ($server authentication failed)</string>
+    <string name="mwlan_error_timeout">Подключение к Интернету ограничено. ($server not responded)</string>
+    <string name="mwlan_version">Версия</string>
+    <string name="mwlan_update_server">Обновить сервер</string>
+    <string name="mwlan_update_period">Период обновления</string>
+    <string name="mwlan_permission_title_2">Защищенное подключение Wi-Fi</string>
+    <string name="mwlan_permission_summary_2">"Your LG U+ membership authentication information(about the device and USIM) will be collected to run the U+zone security application and connect to the LG U+ Wi-Fi networks.
+ That information is used to authenticate to the LG U+ Wi-Fi networks and stored while using the service. The LG U+ Wi-Fi security module will be started."</string>
+    <string name="mwlan_allow_2">Согласен</string>
+    <string name="mwlan_deny_2">Не согласен</string>
+    <string name="mwlan_start_to_connect_2">Защищенное подключение к службе</string>
+    <string name="mwlan_release">Rel</string>
+    <string name="mwlan_development">Dev</string>
+</resources>
